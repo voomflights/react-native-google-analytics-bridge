@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.subspec 'Core' do |ss|
     ss.dependency 'React'
     ss.frameworks = 'CoreData', 'SystemConfiguration'
-    ss.libraries = 'z', 'sqlite3.0','GoogleAnalyticsServices'
+    ss.libraries = 'z', 'sqlite3.0'
 
     ss.vendored_libraries =
       galib_root+'/libGoogleAnalyticsServices.a'
